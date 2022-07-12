@@ -7,8 +7,7 @@ from urllib.request import urlopen
 import pandas_datareader as web
 
 
-with open('token.txt', 'r') as f:
-    token = f.read()
+token =  'Get your token from the Botfather on telegram' 
 
 
 # Now we would write functions that we want our bot to do
